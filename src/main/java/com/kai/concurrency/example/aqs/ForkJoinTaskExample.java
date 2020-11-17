@@ -1,10 +1,10 @@
 package com.kai.concurrency.example.aqs;
 
-import lombok.extern.slf4j.Slf4j;
-
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.Future;
 import java.util.concurrent.RecursiveTask;
+
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class ForkJoinTaskExample extends RecursiveTask<Integer> {

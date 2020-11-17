@@ -17,6 +17,6 @@ public class AtomicExample4 {
         count.compareAndSet(1, 3); // no
         count.compareAndSet(2, 4); // 4
         count.compareAndSet(3, 5); // no
-        log.info("count:{}", count.get());
+        log.info("count:{}", count.get());//4
     }
 }
