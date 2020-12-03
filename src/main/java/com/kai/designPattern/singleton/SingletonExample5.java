@@ -1,4 +1,4 @@
-package com.kai.designPattern.Singleton;
+package com.kai.designPattern.singleton;
 
 import com.kai.concurrency.annoations.ThreadSafe;
 
